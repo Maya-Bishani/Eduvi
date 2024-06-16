@@ -1,0 +1,140 @@
+.circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .custom-nav {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px 0px 0px 0px;
+    margin: 0 auto;
+    top: 1874.04px;
+    left: 312px;
+    
+  }
+  .bg-orange {
+    background-color: orange;
+  }
+  
+  .bg-gray {
+    background-color: gray;
+  }
+  
+  .bg-teal {
+    background-color: teal;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .bg-cyan {
+    background-color: cyan;
+  }
+  
+  .bg-red {
+    background-color: red;
+  }
+  
+  .bg-yellow {
+    background-color: yellow;
+  }
+  
+  .custom-nav .nav-link.active {
+    background-color: #ff6347;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .custom-nav .nav-link {
+    color: #4a4a4a;
+    font-weight: bold;
+  }
+  
+  .custom-visit-button {
+    background-color: #9370db;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  .custom-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    min-height: 300px;
+    max-height: 300px;
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .custom-card .card-text {
+    margin-bottom: 2rem;
+  }
+  
+  .custom-card .btn-outline-primary {
+    border-color: #9370db;
+    color: #9370db;
+    margin-top: auto;
+    width: 80%;
+  }
+  
+  .custom-card .btn-outline-primary:hover {
+    background-color: #9370db;
+    color: white;
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .custom-nav .nav-link {
+      width: 130px;
+    }
+  }
+  
+  /* Custom styles for the specified sections */
+  .header-title {
+    width: 658px;
+  height: 55px;
+    top: Top1718.04px;
+    left: 256px;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #0A033C;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  
+  .header-subtitle {
+    width: 700px;
+  height: 56px;
+    font-family: 'Metropolis', sans-serif;
+    top: 1778.04px;
+    left: 162px;
+    bottom: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #5D5A6F;
+    color: white;
+    margin: 0 auto 20px; /* Add bottom margin to create space */
+    padding: 10px 0;
+  }
+  

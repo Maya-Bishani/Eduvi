@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Metropolis:wght@400;700&display=swap');
+
+.subscribe-container {
+  position: relative;
+  width: 944px;
+  height: 378px;
+  background: #0A033C;
+  color: #FFFFFF;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 20px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-content h2 {
+  font-family: 'Metropolis', sans-serif;
+  font-size: 35px; /* Adjusted to match Figma */
+  font-weight: 700;
+  line-height: 40px; /* Adjusted to match Figma */
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-content .subscribe-text {
+  font-family: 'Metropolis', sans-serif;
+  font-size: 16px; /* Adjusted to match the provided image */
+  font-weight: 400;
+  line-height: 28px; /* Adjusted to match the provided image */
+  text-align: center;
+  max-width: 493px;
+  margin: 0 auto 1rem auto;
+  color: #cccccc; /* Adjusted to match the provided image */
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 471px;
+  margin: 0 auto;
+}
+
+.subscribe-form .form-control {
+  width: 344px; /* Adjusted to match the provided image */
+  height: 50px; /* Adjusted to match the provided image */
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0px 0px 5px; /* Adjusted to match the provided image */
+  outline: none;
+  background: #2c2f48;
+  color: white; /* Ensures text in input field is white */
+}
+
+.subscribe-form .form-control::placeholder {
+  color: #cccccc; /* Adjust placeholder color for better visibility */
+}
+
+.subscribe-form .btn {
+  width: 127px; /* Adjusted to match the provided image */
+  height: 50px; /* Adjusted to match the provided image */
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #9C4DF4;
+  color: white;
+  border: none;
+  border-radius: 0px 5px 5px 0px; /* Adjusted to match the provided image */
+  cursor: pointer;
+}
+
+.subscribe-form .btn:hover {
+  background-color: #7A3FB8;
+}
+
+.photo {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 1; /* Ensure images are visible */
+}
+
+.photo1 {
+  top: 20px;
+  right: -20px;
+  width: 50px;
+  height: 50px;
+}
+
+.photo2 {
+  top: 120px;
+  right: -20px;
+  width: 50px;
+  height: 60px;
+}
+
+.photo3 {
+  bottom: -20px;
+  right: -20px;
+  width: 60px;
+  height: 60px;
+}
+
+.photo4 {
+  top: -20px;
+  left: -20px;
+  width: 50px;
+  height: 60px;
+}
+
+.photo5 {
+  top: 120px;
+  left: 100px;
+  width: 50px;
+  height: 120px;
+}
+
+.photo6 {
+  bottom: 50px;
+  left: 90px;
+  width: 50px;
+  height: 80px;
+top: 210px;
+}
+
+@media (max-width: 768px) {
+  .subscribe-container {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .subscribe-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .subscribe-content .subscribe-text {
+    font-size: 1rem;
+    width: auto;
+    white-space: normal; /* Allows text to wrap on smaller screens */
+  }
+
+  .subscribe-form .form-control {
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+  }
+
+  .subscribe-form .form-control,
+  .subscribe-form .btn {
+    width: 100%;
+    margin: 0.2rem 0;
+  }
+
+  .subscribe-form .form-control {
+    border-radius: 5px;
+  }
+
+  .subscribe-form .btn {
+    border-radius: 5px;
+  }
+}
