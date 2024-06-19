@@ -84,46 +84,57 @@
 }
 
 .photo1 {
-  top: 20px;
-  right: -20px;
-  width: 50px;
-  height: 50px;
+  position:absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  left: 70px;
+  top: 50px;
 }
 
 .photo2 {
-  top: 120px;
-  right: -20px;
-  width: 50px;
-  height: 60px;
+  position:absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  left: 260px;
+  top: 150px;
 }
 
 .photo3 {
-  bottom: -20px;
-  right: -20px;
-  width: 60px;
-  height: 60px;
+  position:absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  left: 100px;
+  top: 2700px;
 }
 
 .photo4 {
-  top: -20px;
-  left: -20px;
-  width: 50px;
-  height: 60px;
+  position:absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  left: 1500px;
+  top: 260px;
 }
 
 .photo5 {
-  top: 120px;
-  left: 100px;
-  width: 50px;
-  height: 120px;
+  position:absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  left: 1300px;
+  top: 150px;
 }
 
 .photo6 {
-  bottom: 50px;
-  left: 90px;
-  width: 50px;
-  height: 80px;
-top: 210px;
+  position:absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  left: 1450px;
+  top: 150px;
 }
 
 @media (max-width: 768px) {
