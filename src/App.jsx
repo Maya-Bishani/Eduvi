@@ -13,6 +13,7 @@ import { Footer } from './components/Footer/Footer';
 
 function App() {
 
+  
   return (
     <>
 
@@ -28,7 +29,9 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      
     </>
+   
   )
 }
 
