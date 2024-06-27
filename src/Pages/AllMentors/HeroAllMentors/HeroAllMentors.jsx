@@ -12,7 +12,7 @@ export default function HeroAllMentors(){
                 <p className='ne-eduvi-courses'>Eduvi has the qualified mentor</p>
                 <div className='ne-div-img'>
                     
-                    <img src='public/images/AllMentorimg/allmentorhero.svg' alt='error' className='ne-imglap'></img>
+                    <img src='public/images/AllMentorimg/allmentorhero.svg' alt='error1' className='ne-imglap'></img>
                 </div>
             </div>
         </div>

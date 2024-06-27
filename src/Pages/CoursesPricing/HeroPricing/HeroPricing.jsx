@@ -11,7 +11,7 @@ export default function HeroPricing(){
                 <p className='ne-eduvi-courses'>Our Pre-ready Pricing Packages</p>
                 <div className='ne-div-img'>
                     
-                    <img src='public/images/CoursesPricing/Hero/page coursess pricing-hero img.png' alt='error' className='ne-imglap'></img>
+                    <img src='public/images/CoursesPricing/Hero/page coursess pricing-hero img.png' alt='errore' className='ne-imglap'></img>
                 </div>
             </div>
         </div>
