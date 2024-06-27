@@ -21,7 +21,7 @@ export default function Hero(){
                 </datalist>
                 <div className='ne-class-course'>class/course</div>
                 </div>
-               <button className='ne-but-search'>search</button>
+               <button className='ne-but-search'> <img src="" alt="" />  search</button>
             </div>
         </div>
         <img src='./images/Homepage/Hero/Image.svg'className='ne-hero-right-img'></img>
