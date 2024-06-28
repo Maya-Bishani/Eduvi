@@ -9,6 +9,8 @@ import AllMentors from './Pages/AllMentors/AllMentors';
 import SingleMentorDetalis from './Pages/SingleMentorDetalis/SingleMentorDetalis';
 import { NavbarComponent } from './components/NavbarComponent/NavbarComponent';
 import { Footer } from './components/Footer/Footer';
+import Cardpage2 from './Pages/AllMentors/Cardpage2/Cardpage2';
+import Cardpage3 from './Pages/AllMentors/Cardpage3/Cardpage3';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           <Route path='/CoursesPricing' element={<CoursesPricing />} />
           <Route path='/AllMentors' element={<AllMentors />} />
           <Route path='/SingleMentorDetalis' element={<SingleMentorDetalis />} />
+          <Route path='/Cardpage2' element={<Cardpage2 />} />
+          <Route path='/Cardpage3' element={<Cardpage3/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

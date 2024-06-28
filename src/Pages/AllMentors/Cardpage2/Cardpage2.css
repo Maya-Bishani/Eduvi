@@ -1,0 +1,93 @@
+.MB-numwithe{
+    background-color: var(--White);
+    width: 50px;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+.MB-container-Cards{
+    width: 88%;
+    margin: 0 auto;
+    padding: 2.7% 5.5% 0 5.5% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.MB-card1{
+   width: 290px;
+}
+.MB-profile{
+    width: 100%;
+}
+
+.MB-title{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 10px;
+    
+}
+.MB-name{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: var(--WritingColor);
+}
+.MB-Jobtitle{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var( --LightWritingColor);
+}
+
+.MB-name-red{
+    color: var(--Orange);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.MB-Withebackground{
+    background-color: var(--White);
+    width: 290px;
+    padding-top: 12px ;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.MB-Number{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var( --LightWritingColor);
+
+}
+.MBred-number{
+    color: var(--Orange);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #ff6652;
+}
+.MB-Slider{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    margin: 3.4% 0 6.9% 0;
+   
+   
+}
+.MB-numpage{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var( --WritingColor);
+    line-height: 16px;
+}
+.MB-dropdown{
+    width: 290px;
+}
+
