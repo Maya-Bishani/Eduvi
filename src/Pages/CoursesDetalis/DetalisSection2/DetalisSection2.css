@@ -39,11 +39,13 @@
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
+    margin-bottom: 35px;
+    font-family:"Metropolis" ;
 }
 .ne-asid-img .p{
     width: 260px;
     height: 20px;
-    font-family: Metropolis;
+    font-family: "Metropolis";
     font-size: 24px;
     font-weight: 600;
     line-height: 20px;
@@ -53,6 +55,7 @@
 .ne-asid-img{
    /* width: 38%;*/
    width: 60%;
+   margin-top: 15px;
 }
 .ne-price-bag{
     display: flex;
@@ -80,4 +83,65 @@
 }
 .ne-s{
     margin-left: 3px;
+}
+
+@media (min-width: 768px)  and (max-width: 1000px){
+    .ne-asid-img .p{
+        font-size: 17px;
+        width:170px ;
+    }
+    
+    .ne-s {
+        width: 15px;
+    }
+    .ne-price{
+        font-size: 21px;
+    }
+    .ne-bagg {
+        width: 24px;
+        padding: 4px;
+        height: 27px;}
+        .ne-bagg img{
+            width: 14px;
+        }
+}
+@media (min-width: 576px)  and (max-width: 768px){
+    .ne-asid-img .p{
+        width: 122px;
+        font-size: 12px;
+    }
+    .ne-s{
+        width: 12px;
+    }
+    .ne-price{
+        font-size: 21px;
+    }
+    .ne-bagg{
+        height: 20px;
+        width: 20px;
+    }
+    .ne-bagg img{
+        width: 12px;
+    margin-bottom: 20px;
+    }
+}
+@media (min-width: 300px)  and (max-width: 576px){
+    .ne-first-div-cotain-left-right{
+        flex-direction: column;
+    }
+    .ne-left,.ne-right{
+        width: 100%;
+    }
+    .ne-right{
+        margin-top: 30px;
+    }
+    .ne-second-div-cotain-left-right{
+        flex-direction: column;
+    }
+    .ne-asid-img .p{
+        font-size: 18px;
+    }
+    .ne-similar-cors-p{
+        font-size: 40px;
+    }
 }
