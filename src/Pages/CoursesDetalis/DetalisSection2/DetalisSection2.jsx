@@ -75,7 +75,7 @@ export default function DetalisSection2(){
                    </div>
                 </div>
                 <div className='ne-right'>
-                <img className='ne-img' src="public/images/CoursesDetalis/page courcses details-course playlists img.png" alt="error" />
+                <img className='ne-img' src="public/images/CoursesDetalis/page courses details-similar courses-img4.png" alt="error" />
                 <div className='ne-asid-img'>
                    <p className='p'>The Three Musketeers</p>
                     <div className='ne-iconstars'>
