@@ -1,5 +1,7 @@
 import  { useState } from 'react'
 import './Cardpage3.css';
+import '../HeroAllMentors/HeroAllMentors'
+import HeroAllMentors from '../HeroAllMentors/HeroAllMentors';
 export default function Cardpage3(){
    const [showDropdown, setShowDropdown] = useState(false);
    const [rotateImage, setRotateImage] = useState(false);
@@ -35,6 +37,14 @@ export default function Cardpage3(){
    
    }
     return<>
+    <HeroAllMentors/>
+    <div className="MB-Taps-allmentors">
+   <button>All Mentors</button>
+   <button>For Kindergarten</button>
+   <button className='MB-active'>For high school</button>
+   <button>For college</button>
+   <button>For Technology</button>
+</div>
     <div className="MB-container-Cards">
 
 <div className="MB-card1">
