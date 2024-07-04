@@ -153,8 +153,34 @@
     white-space: normal;
     text-overflow: clip;
 }
+@media screen and (min-width: 300px) and (max-width: 374px) {
+    .recordedCourse {
+        width: 89.33%;
+        flex-direction: column;
+    }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+    .videoImg,
+    .playList {
+        width: 91.04%;
+        margin: 0 auto;
+    }
+
+    .CoursePlaylists,
+    .lesson:nth-child(n + 7) {
+        display: none;
+    }
+
+    .videoImg h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .linksToHome {
+        padding: 6.55% 0;
+    }
+
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
 
     .recordedCourse {
         width: 89.33%;
@@ -182,7 +208,7 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 1023px) {
     .recordedCourse {
         width: 89.33%;
         flex-direction: column;
@@ -215,35 +241,9 @@
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 374px) {
-    .recordedCourse {
-        width: 89.33%;
-        flex-direction: column;
-    }
 
-    .videoImg,
-    .playList {
-        width: 91.04%;
-        margin: 0 auto;
-    }
 
-    .CoursePlaylists,
-    .lesson:nth-child(n + 7) {
-        display: none;
-    }
-
-    .videoImg h3 {
-        font-size: 18px;
-        margin-bottom: 15px;
-    }
-
-    .linksToHome {
-        padding: 6.55% 0;
-    }
-
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
 
     .recordedCourse {
         width: 92.19%;
