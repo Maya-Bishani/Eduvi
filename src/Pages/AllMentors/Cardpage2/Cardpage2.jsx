@@ -196,8 +196,7 @@ export default function Cardpage2 (){
          </div>
 <div className="MB-Slider">
 
-<a href='./Section1cards'> <img src='./images/AllMentorimg/Icon/previous.svg' /> </a><span className='MB-numpage'> Page  <span className='MB-numwithe'> 2 </span>   Of   3 </span><a href='./Cardpage3'> <img src='./images/AllMentorimg/Icon/Next.svg' /></a>
-
+<a href='./AllMentoring'> <img src='./images/AllMentorimg/Icon/previous.svg' /> </a><span className='MB-numpage'> Page  <span className='MB-numwithe'> 2 </span>   Of   3 </span><a href='./Cardpage3'> <img src='./images/AllMentorimg/Icon/Next.svg' /></a>
 </div>
 
     </>

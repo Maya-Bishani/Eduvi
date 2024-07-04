@@ -28,42 +28,40 @@
 }
 .never-stop-learning p{
     
-    font-family:"Metropolis";
-   font-size: 16px;
+    font-family:"Metropolis" , sans-serif;
+   font-size: 1.25rem;
    font-weight: 500;
    line-height: 16px;
-   color: #FF6652;
+   color: var(--Orange);
  }
 .never-stop-learning{
-    width: 190px;
-    height: 36px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    padding-left: 22px;
-    padding-top: 8px;
+    width: 239px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:var(--White);
+    padding: 15px 20px;
 }
 .ne-grow-up{
     width: 607px;
     height: 225px;
-    
     font-family: "Metropolis", sans-serif;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 75px;
-    color: #0A033C;
+    color: var( --WritingColor);
 }
 .ne-lorem{
     width: 481px;
     height: 84px;
-    color: #5D5A6F;
-    font-family: "Metropolis";
+    color: var(--LightWritingColor);
+    font-family: "Metropolis" , sans-serif;
 }
 .ne-left-search{
     
     width: 607px;
     height: 60px;
     border-radius: 10px;
-    background-color: #FFFFFF;
+    background-color: var(--White);
     display: flex;
     justify-content: space-between;
     padding-right: 4px;
@@ -73,10 +71,11 @@
     width: 128px;
     height: 24px;
     border: transparent;
-    font-family:" Metropolis";
+    font-family:" Metropolis" , sans-serif;
     font-weight: 500;
     margin-left: 23px;
-    color:  #5D5A6F99;
+    color:var(--LightWritingColor) ;
+    opacity: 0.5;
     /*border-right: 2px solid #5D5A6F99;*/
 }
 .ne-but-search{
@@ -84,18 +83,26 @@
    height: 50px;
    border-radius: 10px ;
    border: transparent;
-   background-color: #9C4DF4;
-   font-family:" Inter";
-   color: #FFFFFF;
+   background-color: var(--Purple);
+   font-family:"Inter";
+   color: var(--White);
+   font-weight: 500;
+   font-size: 1rem;
+   line-height: 20px;
    
 
 }
 .ne-class-course{
-    font-family:" Metropolis";
-    color: #5D5A6F99;
+    font-family:" Metropolis" , sans-serif;
+    color: var(--LightWritingColor);
+    opacity: 0.5;
+    font-size: 1rem;
+    line-height: 16px;
+    font-weight: 500;
     margin-left: 25px;
 
 }
+
 .ne-parent{
     display: flex;
     justify-content: space-between;

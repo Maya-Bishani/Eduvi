@@ -26,7 +26,7 @@
 .ne-creat{
     /*width: 64%;*/
     height: 110px;
-    font-family: Metropolis;
+    font-family: "Metropolis", sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
@@ -38,14 +38,14 @@
     height: 90px;
     font-size: 16px;
     font-weight: 400;
-    color: #5D5A6F;
+    color: var(--LightWritingColor);
 }
 .ne-card{
     width: 31%;
     
     border-radius: 10px;
     padding: 20px;
-    background-color: white;
+    background-color:var(--White);
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -54,11 +54,11 @@
     font-weight: 600;
 }
 .ne-card-p{
-    color: #5D5A6F;
+    color: var(--LightWritingColor);
 
 }
 .ne-dolar{
-    color: #0A033C;
+    color: var(--WritingColor);
     font-size: 30px;
     font-weight: 600;
 }

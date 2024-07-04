@@ -3,7 +3,7 @@
     background-color: var(--BodyColor);
     width: 100%;
    
-    padding: 1.8% 5.5% 1.8% 5.5%;
+    padding: 3% 5.5% 1.8% 5.5%;
     gap: 40px;
 }
 .MB-Heading-Section1{
@@ -36,16 +36,10 @@
 .MB-Learn2{
     display: none;
 }
-.p1{
-    padding: 15px 0 0 10px !important;
-    font-weight: 400;
-    color: var(--WritingColor);
-    font-size: 1rem;
-    line-height: 30px;
-}
 
 
-.p{
+
+.MB-Learn .p , .MB-Learn2 .p{
     padding: 10px 0 0 10px !important;
     font-weight: 400;
     color: var(--WritingColor);
@@ -55,14 +49,14 @@
 .MB-Container-card-section1{
     width: 27%;
 }
-.MB-Card-course{
+.MB-Container-card-section1 .MB-Card-course{
     background-color: var(--White);
     padding: 30px 20px;/*30 20*/
     border-radius: 10px;
    
     /*height: 500px;*/
 }
-.MB-Head-Card{
+ .MB-Head-Card{
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
@@ -82,8 +76,8 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
-   padding-left: 40%;
-    padding-right: 1.38%;
+  /* padding-left: 40%;
+    padding-right: 1.38%;*/
     
     
 }
@@ -93,24 +87,26 @@
     line-height: 20px;
     border-bottom: 1px solid gray;
     color: var(--WritingColor);
-    margin-left: 16%;
-    padding-right: 1.38%; 
+   /* margin-left: 16%;
+    padding-right: 1.38%; */
 }
 .MB-icon-stars{
    padding-right: 1.38%;
     padding-left: 39%;
+   
+    
 }
 .MB-duration-info{
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
     color: var(--WritingColor);
-    padding-left: 37%;
-    padding-top: 1.73%;
+   /* padding-left: 37%;
+    padding-top: 1.73%;*/
 
 }
 .MB-Lessons-info{
-    padding-left: 54.58%;
+   /* padding-left: 54.58%;*/
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
@@ -121,25 +117,25 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
-    padding-left: 60%;
+    /*padding-left: 60%;*/
     color: var(--WritingColor);
 }
 .MB-Certifica-info{
-    padding-left: 50%;
+    /*padding-left: 50%;*/
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
     color: var(--WritingColor);
 }
 .MB-language-info{
-    padding-left: 40%;
+   /* padding-left: 40%;*/
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
     color: var(--WritingColor);
 }
 .MB-Access-info{
-    padding-left: 47%;
+    /*padding-left: 47%;*/
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
@@ -163,7 +159,7 @@
 
 @media(max-width:1115px) and (min-width:1047px){
     .MB-Text-Section1{
-width: 100%;
+          width: 100%;
     }
     
     .MB-Head-Card{
@@ -180,7 +176,12 @@ width: 100%;
     .MB-duration-info ,.MB-Access-info , .MB-language-info , .MB-Certifica-info , .MB-Quizze-info , .MB-Quizze-info , .MB-Lessons-info , .MB-duration-info{
         font-size: 18px;
     }
-    
+    .MB-Info-Instructor{
+        font-size: 1rem;
+    }
+    .MB-icon-stars{
+       width: 200px;
+    }
 }
 @media(max-width:1046px){
     .MB-Text-Section1{
@@ -204,18 +205,23 @@ width: 100%;
             .MB-Text-Section1{
                
             }
+            
 
 }
-@media(max-width:768px){
+@media(max-width:780px){
    
    
+  
 
 }
 
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     .MB-Container-Section1{
         flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+        margin: 0 auto;
     }
     .MB-Container-card-section1 , .MB-Text-Section1{
         width: 335px;
@@ -239,9 +245,19 @@ width: 100%;
     }
     .MB-Learn2{
     display: flex;
-    
+    justify-content:flex-start;
     }
-
+    .MB-Learn2 .p{
+        padding: 10px 0 0 10px !important;
+        font-size: 14px;
+    }
+    .MB-Information p{
+        font-size: 1rem;
+    }
+    .MB-icon-stars{
+        width: 200px;
+    }
+   
     
 }
 

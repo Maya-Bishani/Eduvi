@@ -24,7 +24,7 @@ export default function Section1(){
                      <h1 className='MB-Heading-Section1'>What you'll learn in this course:</h1>
                      <div className="MB-Learn">
                      <img src='./images/CoursesDetalis/Icon/red circle-icon.svg'/>
-                     <p className='p1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                     <p className='p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 
                      </div>
                      <div className="MB-Learn">
@@ -48,7 +48,7 @@ export default function Section1(){
 
                      <div className="MB-Learn2">
                      <img src='./images/CoursesDetalis/Icon/red circle-icon.svg'/>
-                     <p className='p1'>Lorem ipsum dolor sit amet, consectetur</p>
+                     <p className='p'>Lorem ipsum dolor sit amet, consectetur</p>
 
                      </div>
                      <div className="MB-Learn2">

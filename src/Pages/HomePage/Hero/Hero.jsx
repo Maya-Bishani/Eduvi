@@ -16,14 +16,14 @@ export default function Hero(){
                 <div className='ne-parent'>
                 <input list='courses' placeholder='kinder garden'/><img src="public/images/Homepage/Hero/down.svg" alt="" />
                 <datalist id='courses' >
-                    <option value='kinder garden'></option>
+                    <option value='Kindergarden'></option>
                     <option value='school'></option>
                     
                 </datalist>
                 
-                <div className='ne-class-course'>class/course</div>
+                <div className='ne-class-course'>Class/Course</div>
                 </div>
-               <button className='ne-but-search'> <img src="public/images/Homepage/Hero/search-hero.svg" alt="" />  search</button>
+               <button className='ne-but-search'> <img src="public/images/Homepage/Hero/search-hero.svg" alt="" />  Search</button>
             </div>
         </div>
         <img src='./images/Homepage/Hero/Image.svg'className='ne-hero-right-img'></img>

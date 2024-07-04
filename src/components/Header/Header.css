@@ -53,11 +53,11 @@
     width: 45px;
     height: 22px;
     border-right: 2px solid #5D5A6F;
-    color: #5D5A6F;
+    color:var(--LightWritingColor);
 }
 .ne-herodiv2{
     margin-left: 6px;
-    color:#9C4DF4 ;
+    color:var(--Purple) ;
 }
 .ne-eduvi-courses{
     width: 41%;
