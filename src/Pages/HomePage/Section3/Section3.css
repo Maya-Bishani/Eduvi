@@ -35,7 +35,7 @@
     width: 34%;
     height: 46px;
     color:#9C4DF4;
-    font-family:Metropolis;
+    font-family:"Metropolis", sans-serif;
     line-height: 20px;
     font-size: 20px;
     border: transparent;
@@ -55,29 +55,33 @@
 }
 .ne-covid{
     width: 100%;
-    font-family:" Metropolis";
+    font-family:" Metropolis" ,sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
    height: 165px;
-    color: #0A033C;
+    color: var(--WritingColor);
     
 }
 .ne-section3p{
-    font-family: "Metropolis";
+    font-family: "Metropolis" , sans-serif;
     text-align: justify;
     /*background: aliceblue;*/
     
-    color: #5D5A6F;
+    color: var( --LightWritingColor);
 
 }
 .ne-section3-but{
     width: 185px;
     height: 60px;
     border-radius: 10px;
-    background: #9C4DF4;
+    background: var(--Purple);
     border: transparent;
     color: white;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
 }
 .ne-star-lap-section3{
     height: 150px !important;

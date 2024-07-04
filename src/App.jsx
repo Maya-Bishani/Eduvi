@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/NavbarComponent/NavbarComponent';
 import { Footer } from './components/Footer/Footer';
 import Cardpage2 from './Pages/AllMentors/Cardpage2/Cardpage2';
 import Cardpage3 from './Pages/AllMentors/Cardpage3/Cardpage3';
+import Section1cards from './Pages/AllMentors/Section1cards/Section1cards';
 
 
 function App() {
@@ -18,8 +19,6 @@ function App() {
   
   return (
     <>
-
-      <BrowserRouter>
         <NavbarComponent />
         <Routes>
           <Route path='/' element={<HomePage />} />
@@ -30,10 +29,10 @@ function App() {
           <Route path='/SingleMentorDetalis' element={<SingleMentorDetalis />} />
           <Route path='/Cardpage2' element={<Cardpage2 />} />
           <Route path='/Cardpage3' element={<Cardpage3/>} />
+          <Route path='/Section1cards' element={<Section1cards/>} />
         </Routes>
         <Footer />
-      </BrowserRouter>
-      
+
     </>
    
   )

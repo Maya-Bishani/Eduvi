@@ -9,7 +9,7 @@ export default function Section1cards () {
    const [rotateImage2, setRotateImage2] = useState(false);
    const [showDropdown3, setShowDropdown3] = useState(false);
    const [rotateImage3, setRotateImage3] = useState(false);
-
+  
   
 
    
@@ -36,12 +36,18 @@ export default function Section1cards () {
      
    
    }
-
+   
    
 
    return (
       <>
-
+<div className="MB-Taps-allmentors">
+   <button>All Mentors</button>
+   <button>For Kindergarten</button>
+   <button className='MB-active'>For high school</button>
+   <button>For college</button>
+   <button>For Technology</button>
+</div>
          <div className="MB-container-Cards">
 
             <div className="MB-card1">
