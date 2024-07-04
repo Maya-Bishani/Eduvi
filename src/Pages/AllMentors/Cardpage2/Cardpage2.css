@@ -1,0 +1,172 @@
+.MB-numwithe{
+    background-color: var(--White);
+    width: 50px;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+.MB-container-Cards{
+    width: 88%;
+    margin: 0 auto;
+    padding: 2.7% 5.5% 0 5.5% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.MB-card1{
+   width: 290px;
+}
+.MB-profile{
+    width: 100%;
+}
+
+.MB-title{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 10px;
+    
+}
+.MB-name{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: var(--WritingColor);
+}
+.MB-Jobtitle{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var( --LightWritingColor);
+}
+
+.MB-name-red{
+    color: var(--Orange);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.MB-Withebackground{
+    background-color: var(--White);
+    width: 290px;
+    padding-top: 12px ;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.MB-Number{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var( --LightWritingColor);
+
+}
+.MBred-number{
+    color: var(--Orange);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #ff6652;
+}
+.MB-Slider{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    margin: 3.4% 0 6.9% 0;
+   
+   
+}
+.MB-numpage{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var( --WritingColor);
+    line-height: 16px;
+}
+.MB-dropdown{
+    width: 290px;
+}
+.MB-Hidden , .MB-Hidden2 , .MB-Hidden3{
+    background-color: var(--White);
+    position: absolute;
+    width: 290px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    top: 670px;
+    padding-top: 12px ;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    
+    
+   
+}
+@media(min-width:1440px) and (max-width:1600px){
+    .MB-Accordion2-icon{
+        
+        left: 820px;
+        
+    }    
+
+}
+@media(max-width:1115px) and (min-width:796px){
+    .MB-Accordion2-icon{
+        
+        left: 85%;
+        
+    }   
+    
+    .MB-Hidden3{
+        top: 800px;
+    }   
+    
+    .MB-Accordion-icon , .MB-Accordion3-icon {
+        
+        left: 355px;
+        
+    }    
+
+}
+@media(max-width:795px){
+    .MB-Accordion2-icon{
+        
+        left: 300px;
+        
+    }    
+    .MB-Accordion-icon , .MB-Accordion3-icon {
+        
+        left: 340px;
+        
+    }    
+    .MB-Hidden2{
+        top: 1100px;
+    }
+    .MB-Hidden{
+        top: 700px;
+    }
+    .MB-Hidden3{
+        top: 1500px;
+    }
+
+}
+@media(max-width:635px){
+
+    .MB-Accordion-icon , .MB-Accordion3-icon {
+        
+        left: 315px;
+        
+    }    
+}
+@media(max-width:435px){
+
+    .MB-Accordion-icon , .MB-Accordion3-icon {
+        
+        left: 305px;
+        
+    }    
+}

@@ -8,13 +8,15 @@
 .ne-section3-right{
    /* background-color: rgb(196, 140, 150);*/
     width: 57%;
-   
+   position: relative;
     
 }
 .ne-section3-right img{
   
   width: 100%;
   height: 100%;
+  position: absolute;
+    z-index: 2;
 }
 .ne-section3{
      width: 88%;
@@ -33,7 +35,7 @@
     width: 34%;
     height: 46px;
     color:#9C4DF4;
-    font-family:Metropolis;
+    font-family:"Metropolis", sans-serif;
     line-height: 20px;
     font-size: 20px;
     border: transparent;
@@ -53,31 +55,59 @@
 }
 .ne-covid{
     width: 100%;
-    font-family:" Metropolis";
+    font-family:" Metropolis" ,sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 55px;
    height: 165px;
-    color: #0A033C;
+    color: var(--WritingColor);
     
 }
 .ne-section3p{
-    font-family: Metropolis;
+    font-family: "Metropolis" , sans-serif;
     text-align: justify;
     /*background: aliceblue;*/
     
-    color: #5D5A6F;
+    color: var( --LightWritingColor);
 
 }
 .ne-section3-but{
     width: 185px;
     height: 60px;
     border-radius: 10px;
-    background: #9C4DF4;
+    background: var(--Purple);
     border: transparent;
     color: white;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
 }
-
+.ne-star-lap-section3{
+    height: 150px !important;
+    width: 150px !important;
+    z-index: 1 !important;
+    margin-left: 9px !important;
+}
+.ne-html{
+   margin-left: -5% !important;
+   margin-top: 20% !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+.ne-php{
+    position: absolute;
+    height: 50px !important;
+    width: 50px !important;
+    margin-left: 42% !important;
+    margin-top: 15% !important;
+}
+.ne-coffe{
+    position: absolute;
+    height: 50px !important;
+    width: 50px !important;
+    margin-left: 55% !important;
+}
 @media (min-width: 576px)  and (max-width: 1300px){
     .ne-coleglevel{
         width: 61%;
@@ -99,4 +129,44 @@
         width: 133px;
         font-size: 13px;
     }
+}
+@media (min-width: 300px)  and (max-width: 576px){
+    .ne-section3{
+        flex-direction: column;
+        height: max-content;
+        height: 730px;
+        justify-content: start;
+        gap: 15px;
+    }
+    .ne-container-left {
+        width: 100%;
+    }
+    .ne-coleglevel {
+        width: 62%;
+    }
+    .ne-covid {
+        font-size: 32px;
+        line-height: 37px;
+        margin-top: 15px;
+    }
+    .ne-section3p {
+        
+        text-align: start;
+    }
+    .ne-section3-but {
+        width: 166px;
+        height: 47px;
+        margin-top: 20px;
+    }
+    .ne-section3-right img {
+        width: 100%;
+        height: 228px;
+        margin-top: 20px;
+    }
+    .ne-star-lap-section3{
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    
 }

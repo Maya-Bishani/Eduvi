@@ -9,9 +9,9 @@ export default function Section1(){
             <h1 className='MB-h1-Section1'>High quality video, audio &live classes</h1>
             <p className='MB-Paragraph1-Section1'>High-definition video is video of higher resolution and quality than standard-definition. While there is no standardized meaning for high-definition, generally any video image with considerably more than
         480 vertical scan lines or 576 vertical lines is considered high-definition.</p>
-        <button className='MB-btn-Section1'  ><a href='./Courses'> Visit Courses</a></button>
+        <button className='MB-btn-Section1'><a href='./Courses'> Visit Courses</a></button>
         <div className="MB-img-Section1">
-            <Image src='./images/Homepage/ClassesSection/Video call.svg' fluid/>
+            <Image className='MB-mg-section1-homepage' src='./images/Homepage/ClassesSection/Video call.svg' fluid/>
         </div>
         <div className="MB-Cards-Section1">
             <div className="MB-Card1">
