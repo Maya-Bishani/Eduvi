@@ -10,7 +10,8 @@
     margin-left: 6%;
     margin-right: 6%;
     background-color: #EDE9F2;
-    height: 100vh;
+    /*height: 100vh;*/
+    height: 270px;
     justify-content:space-around;
     border-radius: 20px;
 
@@ -35,7 +36,7 @@
     height: 200px;
 }
 .ne-div-img .ne-imglap{
-    height: 300px;
+    height: 198px;
     width:100%;
     z-index: 5;
     position: absolute;
@@ -52,11 +53,11 @@
     width: 45px;
     height: 22px;
     border-right: 2px solid #5D5A6F;
-    color: #5D5A6F;
+    color:var(--LightWritingColor);
 }
 .ne-herodiv2{
     margin-left: 6px;
-    color:#9C4DF4 ;
+    color:var(--Purple) ;
 }
 .ne-eduvi-courses{
     width: 41%;
@@ -67,4 +68,34 @@
 .nnn{
     display: flex;
     justify-content: space-between;
+}
+@media (min-width: 576px)  and (max-width: 768px){
+    .ne-eduvi-courses{
+        font-size: 29px;
+    }
+   
+}
+@media (min-width: 768px)  and (max-width: 1440px){
+    .ne-eduvi-courses{
+        font-size: 37px;
+    }
+}
+@media (min-width: 300px)  and (max-width: 576px){
+    .ne-div-img {
+        width: 221px;
+        
+    }
+    .ne-eduvi-courses{
+        font-size:20px ;
+    }
+    .ne-hero-cours {
+        flex-direction: column;
+    }
+    .ne-parent-img-p{
+        flex-direction: column;
+    }
+    .ne-hero-cours{
+        height: max-content;
+    }
+    
 }

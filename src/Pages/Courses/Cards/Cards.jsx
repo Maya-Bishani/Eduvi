@@ -1,6 +1,5 @@
 import { Container, Row, Col, Card, Button, Nav } from 'react-bootstrap';
-import { Link } from "react-router-dom";
-import './CardsComponent.css';
+import  './Cards.css'
 
 const lessons = [
   { id: 1, img: "public/images/CoursesImg/1.svg", title: "Standard One", description: "Standard 1 is a foundation Standard that reflects 7 important concepts...", buttonText: "Class Details", alt: "photo1" },
@@ -10,25 +9,31 @@ const lessons = [
   { id: 5, img: "public/images/CoursesImg/5.svg", title: "Standard Five", description: "Standard 5 Learning Resources. Learning Resources ensure that the school has the...", buttonText: "Class Details", alt: "photo5" },
   { id: 6, img: "public/images/CoursesImg/6.svg", title: "Standard Six", description: "Standard 6 requires an organisation to have a system to resolve complaints...", buttonText: "Class Details", alt: "photo6" },
   { id: 7, img: "public/images/CoursesImg/7.svg", title: "Standard Seven", description: "Standard 7 Blood Management mandates that leaders of health service organisations...", buttonText: "Class Details", alt: "photo7" },
-  { id: 8, img: "public/images/CoursesImg/8.svg", title: "Standard Eight", description: "Standard 8 Course from NCERT Solutions help students to understand...", buttonText: "Class Details", alt: "photo8" },
+  { id: 9, img: "public/images/CoursesImg/9.svg", title: "Standard Nine", description: "Standard 5 Learning Resources. Learning Resources ensure that the school has the...", buttonText: "Class Details", alt: "photo8" },
+  { id: 10, img: "public/images/CoursesImg/A.svg", title: "Standard A", description: "Standard 6 requires an organisation to have a system to resolve complaints...", buttonText: "Class Details", alt: "photo8" },
+  { id: 11, img: "public/images/CoursesImg/O.svg", title: "Standard Eight", description: "Standard 6 requires an organisation to have a system to resolve complaints...", buttonText: "Class Details", alt: "photo8" },
 ];
 
-const CardsComponent = () => {
+
+
+
+
+const Cards = () => {
   return (
     <Container className="my-5 MB-container-cardhomepage">
-      <h1 className="text-center mb-4 header-title MB-Cardhomepage-title">Qualified lessons for students</h1>
-      <p className="text-center mb-5 header-subtitle">
-        A lesson or class is a structured period of time where learning is intended to occur. It involves one or more students being taught by a teacher or instructor.
-      </p>
-     <div className="MB-Tabs">
-      <button> Kindergarten</button>
-      <button className='MB-active-tab'> High School</button>
+     
+    <div className="MB-Course-tabs">
+      <button>All Courses</button>
+      <button>Kindergarten</button>
+      <button className='MB-active-tab'>High School</button>
       <button>College</button>
-      </div>
-      
-      
-      
+      <button>Computer</button>
+      <button>Science</button>
+      <button>Engineering</button>
+      <button>More Courses</button>
+    </div>
       <Row>
+        <h1 className='MB-title-h1'>Standard Classes</h1>
         {lessons.map(lesson => (
           <Col key={lesson.id} xs={12} sm={6} md={4} lg={3} className="mb-4">
             <Card className="h-100 text-center custom-card">
@@ -49,4 +54,4 @@ const CardsComponent = () => {
   );
 };
 
-export default CardsComponent;
+export default Cards;

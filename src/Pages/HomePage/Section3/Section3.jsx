@@ -12,7 +12,12 @@ export default function Homesection3() {
 
             </div>
             <div className='ne-section3-right'>
-            <img src='./images/Homepage/Hero/lap.png'></img>
+                <img className='ne-html' src="public/images/Homepage/Hero/nehtnlicon.svg" alt="a" />
+                <img className='ne-php' src="public/images/Homepage/Hero/phpicon.svg" alt="aa" />
+                <img className='ne-coffe' src="public/images/Homepage/Hero/coffeicon.svg" alt="aaa" />
+
+                <img className='ne-star-lap-section3' src="public/images/CoursesImg/stars lap.png" alt="" />
+            <img className='nel' src="public/images/CoursesImg/lap remove.png" alt="" />
             </div>
         </section>
     )

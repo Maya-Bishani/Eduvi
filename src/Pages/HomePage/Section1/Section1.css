@@ -1,13 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .MB-Section1-Container{
     background-color: var(--BodyColor);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
     width: 78%;
-    margin: 0 10%;
-    
+   margin: 50px 10%;
+   
+   
 }
 .MB-h1-Section1{
     color: var(--WritingColor);
@@ -48,11 +53,15 @@
     font-family: 'Inter';
     font-weight: 500;
     font-size: 1rem;
+    margin-top: 30px;
 }
 .MB-img-Section1{
    margin: 0; 
-   height:auto;
+   height:600px ;
+  
+  
 }
+
 .MB-icon{
     width: 44px;
     height: 44px;
@@ -83,6 +92,12 @@
     color: var(--LightWritingColor);
     padding-top: 7px;
 }
+@media(max-width:1115px) and (min-width:991px){
+    .MB-img-Section1{
+       
+        height: 488px;
+     }
+}
 @media(max-width:992px) and (min-width:768px){
     .MB-h1-Section1{
         height: 50%;
@@ -93,7 +108,12 @@
     }
     .MB-img-Section1{
        
-        height: 500px;
+        height: 400px;
+     }
+     .MB-btn-Section1{
+        width: 149px;
+        height: 50px;
+        border-radius: 5px;
      }
     
 }
@@ -112,7 +132,7 @@
     }
     .MB-img-Section1{
        
-        height: 400px;
+       height: 400px;
      }
      .MB-Paragraph1-Section1{
         width: 100%;
@@ -126,11 +146,11 @@
 @media(max-width:568px) and (min-width:300px){
     .MB-h1-Section1{
        width: 100%;
-       font-size: 20px;
+       font-size: 28px;
+       font-weight: 700;
     }
     .MB-Paragraph1-Section1{
         font-size: 13px;
-        
         width: 100%;
     }
     .MB-btn-Section1{
@@ -139,7 +159,10 @@
     }
     .MB-img-Section1{
        
-        height: 300px;
+       height: 240px;
+     }
+     .MB-img-Section1{
+        width: 360px;
      }
 }
 @media(max-width:360px){
