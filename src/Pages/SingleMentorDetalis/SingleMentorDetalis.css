@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.SD-heroContainer {
+  margin: 0 auto;
+  width: 88.88%;
+}
+
+img.SD-backgroundL,
+img.SD-backgroundM,
+img.SD-backgroundT {
+  width: 100%;
+}
+
+.mentor-details {
+  display: flex;
+  justify-content: space-between;
+  width: 65.4%;
+}
+
+.mentor-text {
+  margin-top: 90px;
+}
+
+.mentor-info {
+  display: flex;
+  margin-top: -85px;
+}
+
+.contact-button {
+  margin-top: 25px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: var(--White);
+  background: var(--Purple);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.mentor-name {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--WritingColor);
+  margin: 0;
+  padding: 0;
+  font-family: 'Metropolis', sans-serif;
+
+}
+
+.mentor-title {
+  color: var(--LightWritingColor);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.SD-leftPart {
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mentor-photo {
+  margin-right: 20px;
+}
+
+.mentor-photo img {
+  width: 100%;
+}
+
+.SD-background .SD-backgroundM,
+.SD-background .SD-backgroundT {
+  display: none;
+}
+
+.SD-rightPart {
+  width: 32.25%;
+  margin-top: 25px;
+  background: var(--White);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.SD-rightPart ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.SD-card-list-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.SD-card-list-left span {
+  padding-bottom: 25px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--LightWritingColor);
+}
+
+span.totalCourses {
+  font-size: 24px;
+  color: var(--Orange);
+}
+
+span.SD-ratingOrang {
+  color: var(--Orange);
+}
+
+span.SD-star {
+  color: var(--WritingColor);
+}
+
+img.SD-icons {
+  margin-left: 10px;
+}
+
+.SD-tabs {
+  width: 48.70%;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.tabsANContent {
+  width: 65.4%;
+  padding-left: 30px;
+  margin-top: -260px;
+  margin-bottom: 80px;
+}
+
+.SD-tabs button {
+  padding: 20px 30px;
+  color: var(--WritingColor);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--White);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Inter';
+}
+
+
+.SD-tabs button.active {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+
+.SD-About {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--WritingColor);
+}
+
+.SD-lorem {
+  color: var(--LightWritingColor);
+}
+
+.SD-lorem ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .SD-heroContainer {width: 92.19%;}
+
+  .SD-rightPart {width: 38.7%;}
+
+  .mentor-details {width: 59.09%;}
+
+  .mentor-info {width: 55%;}
+
+  .mentor-photo {width: 47.14%;}
+
+  .mentor-text {width: 47.81%;}
+
+  .SD-background .SD-backgroundL {display: none;}
+
+  .SD-background .SD-backgroundT {display: block;}
+
+  .SD-background .SD-backgroundM {display: none;}
+
+  .mentor-name {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .mentor-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .mentor-info {margin-top: -68px;}
+
+  .contact-button {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 25px;
+  }
+
+  .leftPart,.SD-star {font-size: 18px;}
+
+  span.totalCourses {font-size: 20px;}
+
+  .tabsANContent {margin-top: -245px;}
+
+  .tabsANContent {width: 60.4%;}
+
+  .SD-tabs {width: 63.51%;}
+
+  .SD-tabs button {font-size: 14px;}
+
+  .SD-tabs button {padding: 15px 25px;}
+
+  .SD-card-list-left span {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  span.totalCourses {font-size: 20px;}
+}
+@media screen and (max-width: 425px) {
+
+  .SD-heroContainer {width: 89.33%;}
+
+
+  .SD-background .SD-backgroundT ,
+  .SD-background .SD-backgroundL {display: none;}
+
+
+  .SD-background .SD-backgroundM {display: block;}
+
+  .SD-leftPart,.mentor-details ,.mentor-info ,.SD-rightPart,.tabsANContent{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+  }
+  .tabsANContent,.SD-leftPart {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.mentor-photo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.mentor-photo img {
+  width: 38.80%;
+}
+.mentor-info {
+  margin-top: -65px;
+}
+.mentor-text {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-button {
+  margin: 0;
+  border-radius: 5px;
+  padding: 17px 36px;
+}
+.SD-card-list-left span {
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+span.totalCourses {
+  font-size: 20px;
+}
+
+.SD-rightPart,
+.tabsANContent {
+  margin-top: 30px;
+}
+
+.SD-tabs {
+  width: 93.43%;
+  margin-bottom: 20px;
+}
+
+.SD-tabs button {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.SD-content {
+  margin-bottom: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
+/*.SD-leftPart {
+  width: 68.75%;
+}
+.mentor-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.mentor-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+
+
+.mentor-text {
+  margin-left: 20px;
+  padding-top: 120px;
+}
+
+
+.mentor-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mentor-title {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.contact-button {
+  background-color: #7d47f1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #5e35b1;
+}
+
+.SD-links{
+  display: none;
+  width: 100%;
+  height:173px;
+  background-image: url('/public/images/SingleMentor/HeaderImge-Tablet.svg');
+}
+.SD-rightPart {
+  width: 31.25%;
+  background: var(--White);
+}
+
+.SD-hero {
+  display: flex;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.SD-Mentor {
+  width: 38.80%;
+  margin-top: -31px;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.SD-background {
+  border-radius: 10px;
+
+}
+
+.SD-Mentor .SD-Mentor-photo,
+.SD-background,
+.SD-background img {
+  width: 100%;
+}
+
+.SD-mentorName :first-child {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--WritingColor);
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.SD-mentorName :nth-child(2) {
+  color: var(--LightWritingColor);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.SD-hero button {
+  background-color: var(--Purple);
+  color: var(--White);
+  border: none;
+  padding: 17px 36px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 51.64%;
+}
+
+.SD-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: var(--White);
+}
+
+.SD-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+li.SD-card-list-left {
+  padding: 27px 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--LightWritingColor);
+}
+
+li.SD-card-list-right {
+  padding: 27px 0;
+  color: var(--WritingColor);
+  font-weight: 600;
+  text-align: end;
+  margin: 0;
+}
+.withStar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li.SD-card-list-right.totalCourses {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--Orange);
+
+}
+
+.SD-ratingOrang {
+  color: #ff6347;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 1px;
+  background-color: #FF6B6B;
+}
+
+img.SD-icons {
+  padding-left: 10px;
+}
+
+.SD-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.SD-tabs button {
+  padding: 10px 20px;
+  color: var(--WritingColor);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--White);
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Inter';
+}
+
+
+.SD-tabs button.active {
+  background-color: #ff6347;
+  color: white;
+}
+
+.SD-About {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--WritingColor);
+}
+
+.SD-lorem {
+  color: var(--LightWritingColor);
+}*/
+
+

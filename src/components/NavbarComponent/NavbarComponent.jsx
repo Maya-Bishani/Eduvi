@@ -6,6 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export const NavbarComponent = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
 
   const handleMouseEnter = (index) => {
     setActiveDropdown(index);
@@ -13,6 +14,10 @@ export const NavbarComponent = () => {
 
   const handleMouseLeave = () => {
     setActiveDropdown(null);
+  };
+
+  const toggleSideMenu = () => {
+    setIsSideMenuOpen(!isSideMenuOpen);
   };
 
   useEffect(() => {
@@ -39,7 +44,6 @@ export const NavbarComponent = () => {
             />
           </Link>
         </div>
-        <GiHamburgerMenu className="burger-icon" />
 
         <div className="menu">
           <ul>
@@ -65,7 +69,7 @@ export const NavbarComponent = () => {
                 {activeDropdown == index && (
                   <div className="dropdown-content">
                     <Link to="/CoursesDetalis">Courses Detalis</Link>
-                    <Link to="./text2">Text2</Link>
+                    <Link to="/SingleMentorDetalis">SingleMentorDetalis</Link>
                     <Link to="./text3">Text3</Link>
                   </div>
                 )}
@@ -86,7 +90,33 @@ export const NavbarComponent = () => {
             </li>
           </ul>
         </div>
+
+        <div className="verticalMenu burger-icon" onClick={toggleSideMenu}>
+          <p className="bergerMenu">Menu</p>
+          <GiHamburgerMenu />
+        </div>
       </div>
+      {isSideMenuOpen && (
+        <div className="sideMenu">
+          <ul>
+            <li className="sideMenuLIST">
+              <Link to="/Shop">Shop</Link>
+            </li>
+            <li  className="sideMenuLIST">
+              <Link to="/For Kindergarten">For Kindergarten</Link>
+            </li>
+            <li  className="sideMenuLIST">
+              <Link to="/SingleMentorDetalis">For High School</Link>
+            </li>
+            <li  className="sideMenuLIST">
+              <Link to="/CoursesDetalis">For College</Link>
+            </li>
+            <li  className="sideMenuLIST">
+              <Link to="/Courses">Courses</Link>
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 };
