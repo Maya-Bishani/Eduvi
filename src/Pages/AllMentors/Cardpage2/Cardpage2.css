@@ -89,22 +89,20 @@
 }
 .MB-dropdown{
     width: 290px;
-}
-.MB-Hidden , .MB-Hidden2 , .MB-Hidden3{
+} 
+   
+.MB-Hidden , .MB-Hidden2 , .MB-Hidden3  {
     background-color: var(--White);
     position: absolute;
     width: 290px;
     font-family: 'Inter';
     font-weight: 500;
     font-size: 0.875rem;
-    top: 670px;
+    top: 770px !important;
     padding-top: 12px ;
     padding-left: 15px;
     padding-bottom: 10px;
-    border-radius: 0 0 10px 10px;
-    
-    
-   
+    border-radius: 0 0 10px 10px; 
 }
 @media(min-width:1440px) and (max-width:1600px){
     .MB-Accordion2-icon{
@@ -123,7 +121,12 @@
     
     .MB-Hidden3{
         top: 800px;
-    }   
+    }  
+    .MB-Hidden , .MB-Hidden2 {
+        top: 870px !important;
+
+    } 
+    
     
     .MB-Accordion-icon , .MB-Accordion3-icon {
         
@@ -144,14 +147,17 @@
         
     }    
     .MB-Hidden2{
-        top: 1100px;
+        top: 1290px !important;
     }
     .MB-Hidden{
-        top: 700px;
+        top: 900px !important;
     }
     .MB-Hidden3{
         top: 1500px;
     }
+    .MB-Taps-allmentors{
+        margin-left: 50px;
+     } 
 
 }
 @media(max-width:635px){
@@ -160,7 +166,30 @@
         
         left: 315px;
         
-    }    
+    }  
+    .MB-Hidden2{
+        top: 1350px !important;
+    }
+    .MB-Hidden{
+        top: 950px !important;
+    }
+    .MB-Hidden3{
+        top: 1750px !important;
+    } 
+    .MB-Taps-allmentors{
+        margin-left: 50px;
+     } 
+}
+@media(max-width:576px){
+    .MB-Hidden2{
+        top: 1450px !important;
+    }
+    .MB-Hidden{
+        top: 1050px !important;
+    }
+    .MB-Hidden3{
+        top: 1850px !important;
+    } 
 }
 @media(max-width:435px){
 
@@ -168,5 +197,27 @@
         
         left: 305px;
         
-    }    
+    } 
+    .MB-Hidden2{
+        top: 1550px !important;
+    }
+    .MB-Hidden{
+        top: 1150px !important;
+    }
+    .MB-Hidden3{
+        top: 1950px !important;
+    } 
+   
+
+}
+@media (max-width:407px){
+    .MB-Hidden2{
+        top: 1600px !important;
+    }
+    .MB-Hidden{
+        top: 1200px !important;
+    }
+    .MB-Hidden3{
+        top: 2000px !important;
+    } 
 }
