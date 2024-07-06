@@ -153,7 +153,7 @@
     white-space: normal;
     text-overflow: clip;
 }
-@media screen and (min-width: 300px) and (max-width: 374px) {
+@media screen and (max-width: 374px) {
     .recordedCourse {
         width: 89.33%;
         flex-direction: column;
@@ -240,8 +240,6 @@
     }
 
 }
-
-
 
 @media screen and (min-width: 1024px) and (max-width: 1300px) {
 
