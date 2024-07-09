@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
 import './Header.css'
+
 export default function Header(){
     return(
         <div className='ne-hero-cours'>
             <div className='ne-home-cours'>
-                <div className='ne-herodiv1'>Hero</div>
-                <div className='ne-herodiv2' >Courses</div>
+                <div className='ne-herodiv1'>
+                <Link to="/"> Hero </Link>
+                    </div>
+                <div className='ne-herodiv2' >
+                <Link to="/Courses"> Courses </Link> 
+                    </div>
             </div>
             <div className='ne-parent-img-p'>
                 <p className='ne-eduvi-courses'>Eduvi Courses For All Standards</p>
