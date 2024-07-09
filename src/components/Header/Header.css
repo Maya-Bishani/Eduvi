@@ -47,7 +47,8 @@
 .ne-stars{
     position: absolute;
     z-index: 2;
-    
+    width: 127px;
+    height: 73px;
 }
 .ne-herodiv1{
     width: 45px;
@@ -77,13 +78,13 @@
 }
 @media (min-width: 768px)  and (max-width: 1440px){
     .ne-eduvi-courses{
-        font-size: 37px;
+        font-size: 31px;
     }
 }
 @media (min-width: 300px)  and (max-width: 576px){
     .ne-div-img {
         width: 221px;
-        
+        margin-top: 9px;
     }
     .ne-eduvi-courses{
         font-size:20px ;
