@@ -2,7 +2,7 @@
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+   
 }
 .MB-Course-tabs button{
     background-color: var(--White);

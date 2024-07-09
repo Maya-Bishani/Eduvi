@@ -136,6 +136,7 @@
 @media (min-width: 350px)  and (max-width: 576px){
     .ne-first-div-cotain-left-right{
         flex-direction: column;
+        
     }
     .ne-left,.ne-right{
         width: 100%;
