@@ -111,7 +111,7 @@ export default function Section1(){
                     
                     
                 </div>
-                <button className='MB-btn-purchase'>Purchase Course</button>
+                <button className='MB-btn-purchase'> Purchase Course</button>
                 </div>
                
                 

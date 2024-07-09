@@ -60,7 +60,7 @@
     left: 0;
     background-color: var(--LightPurple);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 100;
     min-width: 160px;
 }
 
@@ -105,7 +105,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25%;
     height: 75vh;
     position: fixed;
     top: 75px;
@@ -176,6 +175,8 @@
 @media screen and (max-width: 425px) {
     .container {
         width: 89.33%;
+        margin-top: 10.66%;
+        margin-bottom: 5.33%;
     }
 
     .burger-icon {
@@ -229,7 +230,7 @@
     }
 }
 @media screen and (min-width: 1025px) {
-    .verticalMenu{
+    .verticalMenu ,.sideMenu {
         display: none;
     }
     .logo{
