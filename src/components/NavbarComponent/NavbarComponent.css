@@ -72,12 +72,13 @@
     text-align: left;
 }
 
+
 .menu ul li .dropdown-content a:hover {
     background-color: #EFEBF5;
     color: var(--Purple);
 }
 
-.menu ul li .tabs a:hover {
+.menu ul li .tabs :hover ,.menu ul li a:hover {
     color: var(--Purple);
 }
 

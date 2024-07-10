@@ -34,20 +34,20 @@ export const NavbarComponent = () => {
 
   const dropdownLinks = {
     "For Kindergarten": [
-      { to: "/kindergartenDetails1", label: "All Mentors" },
-      { to: "/kindergartenDetails2", label: "Kindergarten Details 2" },
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
     ],
     "For High School": [
-      { to: "/highSchoolDetails1", label: "All Mentors" },
-      { to: "/highSchoolDetails2", label: "High School Details 2" },
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
     ],
     "For College": [
-      { to: "/collegeDetails1", label: "All Mentors" },
-      { to: "/collegeDetails2", label: "College Details 2" },
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
     ],
     Courses: [
-      { to: "/coursesDetails1", label: "All Mentors" },
-      { to: "/coursesDetails2", label: "Courses Details 2" },
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
     ],
   };
 
