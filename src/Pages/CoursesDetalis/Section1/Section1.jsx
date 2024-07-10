@@ -1,4 +1,5 @@
 import './Section1.css'
+import { Link } from "react-router-dom";
 export default function Section1(){
     return<>
     <section className='MB-Section1'>
@@ -111,7 +112,9 @@ export default function Section1(){
                     
                     
                 </div>
-                <button className='MB-btn-purchase'> Purchase Course</button>
+                <button className='MB-btn-purchase'><Link to="/CoursesPricing">Purchase Course </Link></button>
+                
+
                 </div>
                
                 

@@ -43,7 +43,7 @@ const CardsComponent = () => {
         ))}
       </Row>
       <div className="text-center mt-4">
-        <Button  variant="primary" className="custom-visit-button"> <a href='./Courses'>Visit More Classes</a></Button>
+        <Button  variant="primary" className="custom-visit-button"> <Link to ='./Courses'>Visit More Classes</Link></Button>
       </div>
     </Container>
   );

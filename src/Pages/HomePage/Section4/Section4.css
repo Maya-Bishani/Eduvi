@@ -10,7 +10,8 @@
     display: flex;
     justify-content: space-evenly;
     width: 75%;
-    padding: 10% 12%;
+    padding: 10% 0;
+    margin: 0 auto ;
 }
 .MB-img-Section4{
     width: 510px;
@@ -51,19 +52,25 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    transition: 0.5s;
+}
+.MB-btn-Section4:hover{
+    background-color: var(--White);
+    color: var(--Purple);
+    letter-spacing: 1px;
 }
 
 @media(max-width:1115px) and (min-width:991px){
     .MB-Section4-Container{
      width: 100%;
-     padding: 6.94% 7.50%;
+    /* padding: 6.94% 7.50%;*/
         
     }
    
 }
 @media (max-width:1095px) and (min-width:529px) {
    .MB-Section4-Container{
-        padding: 6.94% 7.9%;
+        /*padding: 6.94% 7.9%;*/
         flex-wrap: wrap;  
     }
     
