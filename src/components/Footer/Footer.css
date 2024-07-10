@@ -79,7 +79,6 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding-right: 13.53%;
-    margin-bottom: 23.53%;
 }
 
 .aboutLogo p, .aboutLogo span {
@@ -120,7 +119,7 @@ footer a:focus {
     color: #9C4DF4;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .footerContainer {
          width: 52.53%;
          margin-left: 5.33%;
@@ -168,4 +167,33 @@ footer a:focus {
     .fMore {
          order: 4; 
      }
+ }
+ @media screen and (min-width: 426px) and (max-width:1024px) {
+    .footerContainer {
+        width:92.1875% ;
+    }
+    .aboutLogo {
+        width: 15.78%;
+}
+.fCourses {
+    width: 18.32%;
+}
+li.fTitle {
+    font-size: 18px;
+}
+.linksP {
+    font-size: 14px;}
+    .fCommunity {
+        width: 11.758%;
+}
+.fQuickLinks {
+    width: 16.10%;
+}
+.fMore {
+    width: 6.4618%;
+}
+.aboutLogo img {
+    margin-bottom: 17.36%;
+}
+
  }

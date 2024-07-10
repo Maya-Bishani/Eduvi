@@ -114,6 +114,7 @@ export default function Section1(){
                 </div>
                 <button className='MB-btn-purchase'><Link to="/CoursesPricing">Purchase Course </Link></button>
                 
+
                 </div>
                
                 

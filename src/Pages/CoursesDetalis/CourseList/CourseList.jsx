@@ -22,7 +22,7 @@ export const CourseList = () => {
             </li>
             <span>|</span>
             <li>
-              <Link to="/">Courses</Link>
+              <Link to="/Courses">Courses</Link>
             </li>
             <span>|</span>
             <li>Course Details</li>

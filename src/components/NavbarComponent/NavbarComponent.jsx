@@ -32,6 +32,25 @@ export const NavbarComponent = () => {
     };
   }, []);
 
+  const dropdownLinks = {
+    "For Kindergarten": [
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
+    ],
+    "For High School": [
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
+    ],
+    "For College": [
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
+    ],
+    Courses: [
+      { to: "/AllMentors", label: "All Mentors" },
+      { to: "/CoursesPricing", label: "Courses Pricing" },
+    ],
+  };
+
   return (
     <div className="SD container">
       <div className="nav">
@@ -64,13 +83,15 @@ export const NavbarComponent = () => {
                   className="tabs"
                   to={`./${item.toLowerCase().replace(/ /g, "")}`}
                 >
-                  {item} <FaAngleDown />
+                  {item} {item !== "Shop" && <FaAngleDown />}
                 </Link>
-                {activeDropdown == index && (
+                {item !== "Shop" && activeDropdown === index && (
                   <div className="dropdown-content">
-                    <Link to="/CoursesDetalis">Courses Detalis</Link>
-                    <Link to="/SingleMentorDetalis">SingleMentorDetalis</Link>
-                    <Link to="./text3">Text3</Link>
+                    {dropdownLinks[item].map((link, linkIndex) => (
+                      <Link key={linkIndex} to={link.to}>
+                        {link.label}
+                      </Link>
+                    ))}
                   </div>
                 )}
               </li>
@@ -102,16 +123,16 @@ export const NavbarComponent = () => {
             <li className="sideMenuLIST">
               <Link to="/Shop">Shop</Link>
             </li>
-            <li  className="sideMenuLIST">
+            <li className="sideMenuLIST">
               <Link to="/For Kindergarten">For Kindergarten</Link>
             </li>
-            <li  className="sideMenuLIST">
+            <li className="sideMenuLIST">
               <Link to="/SingleMentorDetalis">For High School</Link>
             </li>
-            <li  className="sideMenuLIST">
+            <li className="sideMenuLIST">
               <Link to="/CoursesDetalis">For College</Link>
             </li>
-            <li  className="sideMenuLIST">
+            <li className="sideMenuLIST">
               <Link to="/Courses">Courses</Link>
             </li>
           </ul>
