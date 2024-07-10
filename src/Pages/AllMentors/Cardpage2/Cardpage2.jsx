@@ -1,4 +1,5 @@
 import  { useState } from 'react'
+import { Link } from "react-router-dom";
 import '../HeroAllMentors/HeroAllMentors'
 import './Cardpage2.css';
 import HeroAllMentors from '../HeroAllMentors/HeroAllMentors';
@@ -45,11 +46,10 @@ export default function Cardpage2 (){
    <button>For college</button>
    <button>For Technology</button>
 </div>
-    
-    <div className="MB-container-Cards">
+         <div className="MB-container-Cards">
 
             <div className="MB-card1">
-               <a href='./SingleMentorDetalis'><img className='MB-profile' src="./images/AllMentorimg/Profiles/Image.png" alt="photo" /> </a>
+               <Link to ='/SingleMentorDetalis'><img className='MB-profile' src="./images/AllMentorimg/Profiles/Image.png" alt="photo" /> </Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Kristin Watson</p>
@@ -72,7 +72,7 @@ export default function Cardpage2 (){
 
 
             <div className="MB-card1">
-              <a href='./SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(1).png" alt="photo" /> </a>
+              <Link to ='/SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(1).png" alt="photo" /> </Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Brooklyn Simmons</p>
@@ -89,7 +89,7 @@ export default function Cardpage2 (){
                <p className='MB-Jobtitle' >Founder & Mentor</p>
             </div>
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'>  <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(2).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'>  <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(2).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Robert Fox</p>
@@ -106,7 +106,7 @@ export default function Cardpage2 (){
                <p className='MB-Jobtitle' >Founder & Mentor</p>
             </div>
             <div className="MB-card1 card-hidden">
-            <a href='./SingleMentorDetalis'>  <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(3).png" alt="photo" /></a>
+            <Link to ='/SingleMentorDetalis'>  <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(3).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Wade Warren</p>
@@ -117,7 +117,7 @@ export default function Cardpage2 (){
             </div>
 
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'><img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(4).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'><img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(4).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Bessie Cooper</p>
@@ -127,7 +127,7 @@ export default function Cardpage2 (){
                <p className='MB-Jobtitle' >Founder & Mentor</p>
             </div>
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(5).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(5).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Ronald Richards</p>
@@ -137,7 +137,7 @@ export default function Cardpage2 (){
                <p className='MB-Jobtitle' >Founder & Mentor</p>
             </div>
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(6).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(6).png" alt="photo" /></Link>
 
              
                   <div className="MB-title">
@@ -149,7 +149,7 @@ export default function Cardpage2 (){
                </div>
            
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'>  <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(7).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'>  <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(7).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Floyd Miles</p>
@@ -161,7 +161,7 @@ export default function Cardpage2 (){
 
 
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(8).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(8).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Theresa Webb </p>
@@ -171,7 +171,7 @@ export default function Cardpage2 (){
                <p className='MB-Jobtitle' >Founder & Mentor</p>
             </div>
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(9).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(9).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Cody Fisher</p>
@@ -181,7 +181,7 @@ export default function Cardpage2 (){
                <p className='MB-Jobtitle' >Founder & Mentor</p>
             </div>
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'><img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(10).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'><img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(10).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Courtney Henry</p>
@@ -191,7 +191,7 @@ export default function Cardpage2 (){
                <p className='MB-Jobtitle' >Founder & Mentor</p>
             </div>
             <div className="MB-card1">
-            <a href='./SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(11).png" alt="photo" /></a>
+            <Link to='/SingleMentorDetalis'> <img className='MB-profile' src="./images/AllMentorimg/Profiles/Image(11).png" alt="photo" /></Link>
                <div className="MB-dropdown">
                   <div className="MB-title">
                      <p className='MB-name'>Jerome Bell</p>
@@ -204,6 +204,9 @@ export default function Cardpage2 (){
             </div>
 
          </div>
+
+
+
 <div className="MB-Slider">
 
 <a href='./AllMentoring'> <img src='./images/AllMentorimg/Icon/previous.svg' /> </a><span className='MB-numpage'> Page  <span className='MB-numwithe'> 2 </span>   Of   3 </span><a href='./Cardpage3'> <img src='./images/AllMentorimg/Icon/Next.svg' /></a>
